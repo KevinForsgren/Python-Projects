@@ -1,0 +1,3 @@
+# To-Do_CLI-Based project git ignores
+todo.db
+__pycache__
