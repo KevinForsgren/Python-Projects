@@ -5,8 +5,8 @@ from to_do_list import to_do as td
 class to_do_cli():
     def __init__(self):
         self.to_do_manager = td()
-        self.parser = ArgumentParser(
-            prog='To-Do Manager', description='Use to managing and tracking tasks',)
+        self.parser = ArgumentParser(prog='To-Do Manager',
+                    description='Use to managing and tracking tasks',)
 
 
     def main(self):
